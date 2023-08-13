@@ -25,24 +25,33 @@ function funkcijaZagreb(){
 	
 	zagrebBtn.classList.remove("button");
 	zagrebBtn.classList.add("aktivan");
+	zagrebBtn.classList.add("odabranoMobilnaBtn");
 	
 	splitBtn.classList.remove("aktivan");
 	splitBtn.classList.add("button");
+	splitBtn.classList.remove("odabranoMobilnaBtn");
 	
 	rijekaBtn.classList.remove("aktivan");
 	rijekaBtn.classList.add("button");
+	rijekaBtn.classList.remove("odabranoMobilnaBtn");
 	
 	osijekBtn.classList.remove("aktivan");
 	osijekBtn.classList.add("button");
+	osijekBtn.classList.remove("odabranoMobilnaBtn");
 	
 	zadarBtn.classList.remove("aktivan");
 	zadarBtn.classList.add("button");
+	zadarBtn.classList.remove("odabranoMobilnaBtn");
 	
 	pulaBtn.classList.remove("aktivan");
 	pulaBtn.classList.add("button");
+	pulaBtn.classList.remove("odabranoMobilnaBtn");
 	
 	varazdinBtn.classList.remove("aktivan");
 	varazdinBtn.classList.add("button");
+	varazdinBtn.classList.remove("odabranoMobilnaBtn");
+	
+	document.getElementById("odabranaOpcijaMobilno").innerHTML = "ZAGREB";
 }
 
 function funkcijaSplit(){
@@ -56,24 +65,33 @@ function funkcijaSplit(){
 	
 	zagrebBtn.classList.remove("aktivan");
 	zagrebBtn.classList.add("button");
+	zagrebBtn.classList.remove("odabranoMobilnaBtn");
 	
 	splitBtn.classList.remove("button");
 	splitBtn.classList.add("aktivan");
+	splitBtn.classList.add("odabranoMobilnaBtn");
 	
 	rijekaBtn.classList.remove("aktivan");
 	rijekaBtn.classList.add("button");
+	rijekaBtn.classList.remove("odabranoMobilnaBtn");
 	
 	osijekBtn.classList.remove("aktivan");
 	osijekBtn.classList.add("button");
+	osijekBtn.classList.remove("odabranoMobilnaBtn");
 	
 	zadarBtn.classList.remove("aktivan");
 	zadarBtn.classList.add("button");
+	zadarBtn.classList.remove("odabranoMobilnaBtn");
 	
 	pulaBtn.classList.remove("aktivan");
 	pulaBtn.classList.add("button");
+	pulaBtn.classList.remove("odabranoMobilnaBtn");
 	
 	varazdinBtn.classList.remove("aktivan");
 	varazdinBtn.classList.add("button");
+	varazdinBtn.classList.remove("odabranoMobilnaBtn");
+	
+	document.getElementById("odabranaOpcijaMobilno").innerHTML = "SPLIT";
 }
 
 function funkcijaRijeka(){
@@ -87,24 +105,33 @@ function funkcijaRijeka(){
 	
 	zagrebBtn.classList.remove("aktivan");
 	zagrebBtn.classList.add("button");
+	zagrebBtn.classList.remove("odabranoMobilnaBtn");
 	
-	splitBtn.classList.remove("aktivan");
 	splitBtn.classList.add("button");
+	splitBtn.classList.remove("aktivan");
+	splitBtn.classList.remove("odabranoMobilnaBtn");
 	
 	rijekaBtn.classList.remove("button");
 	rijekaBtn.classList.add("aktivan");
+	rijekaBtn.classList.add("odabranoMobilnaBtn");
 	
 	osijekBtn.classList.remove("aktivan");
 	osijekBtn.classList.add("button");
+	osijekBtn.classList.remove("odabranoMobilnaBtn");
 	
 	zadarBtn.classList.remove("aktivan");
 	zadarBtn.classList.add("button");
+	zadarBtn.classList.remove("odabranoMobilnaBtn");
 	
 	pulaBtn.classList.remove("aktivan");
 	pulaBtn.classList.add("button");
+	pulaBtn.classList.remove("odabranoMobilnaBtn");
 	
 	varazdinBtn.classList.remove("aktivan");
 	varazdinBtn.classList.add("button");
+	varazdinBtn.classList.remove("odabranoMobilnaBtn");
+	
+	document.getElementById("odabranaOpcijaMobilno").innerHTML = "RIJEKA";
 }
 
 function funkcijaOsijek(){
@@ -118,24 +145,33 @@ function funkcijaOsijek(){
 	
 	zagrebBtn.classList.remove("aktivan");
 	zagrebBtn.classList.add("button");
+	zagrebBtn.classList.remove("odabranoMobilnaBtn");
 	
-	splitBtn.classList.remove("aktivan");
 	splitBtn.classList.add("button");
+	splitBtn.classList.remove("aktivan");
+	splitBtn.classList.remove("odabranoMobilnaBtn");
 	
-	rijekaBtn.classList.remove("aktivan");
 	rijekaBtn.classList.add("button");
+	rijekaBtn.classList.remove("aktivan");
+	rijekaBtn.classList.remove("odabranoMobilnaBtn");
 	
 	osijekBtn.classList.remove("button");
 	osijekBtn.classList.add("aktivan");
+	osijekBtn.classList.add("odabranoMobilnaBtn");
 	
 	zadarBtn.classList.remove("aktivan");
 	zadarBtn.classList.add("button");
+	zadarBtn.classList.remove("odabranoMobilnaBtn");
 	
 	pulaBtn.classList.remove("aktivan");
 	pulaBtn.classList.add("button");
+	pulaBtn.classList.remove("odabranoMobilnaBtn");
 	
 	varazdinBtn.classList.remove("aktivan");
 	varazdinBtn.classList.add("button");
+	varazdinBtn.classList.remove("odabranoMobilnaBtn");
+	
+	document.getElementById("odabranaOpcijaMobilno").innerHTML = "OSIJEK";
 }
 
 function funkcijaZadar(){
@@ -149,24 +185,33 @@ function funkcijaZadar(){
 	
 	zagrebBtn.classList.remove("aktivan");
 	zagrebBtn.classList.add("button");
+	zagrebBtn.classList.remove("odabranoMobilnaBtn");
 	
-	splitBtn.classList.remove("aktivan");
 	splitBtn.classList.add("button");
+	splitBtn.classList.remove("aktivan");
+	splitBtn.classList.remove("odabranoMobilnaBtn");
 	
-	rijekaBtn.classList.remove("aktivan");
 	rijekaBtn.classList.add("button");
+	rijekaBtn.classList.remove("aktivan");
+	rijekaBtn.classList.remove("odabranoMobilnaBtn");
 	
-	osijekBtn.classList.remove("aktivan");
 	osijekBtn.classList.add("button");
+	osijekBtn.classList.remove("aktivan");
+	osijekBtn.classList.remove("odabranoMobilnaBtn");
 	
 	zadarBtn.classList.remove("button");
 	zadarBtn.classList.add("aktivan");
+	zadarBtn.classList.add("odabranoMobilnaBtn");
 	
 	pulaBtn.classList.remove("aktivan");
 	pulaBtn.classList.add("button");
+	pulaBtn.classList.remove("odabranoMobilnaBtn");
 	
 	varazdinBtn.classList.remove("aktivan");
 	varazdinBtn.classList.add("button");
+	varazdinBtn.classList.remove("odabranoMobilnaBtn");
+	
+	document.getElementById("odabranaOpcijaMobilno").innerHTML = "ZADAR";
 }
 
 function funkcijaPula(){
@@ -180,24 +225,33 @@ function funkcijaPula(){
 	
 	zagrebBtn.classList.remove("aktivan");
 	zagrebBtn.classList.add("button");
+	zagrebBtn.classList.remove("odabranoMobilnaBtn");
 	
-	splitBtn.classList.remove("aktivan");
 	splitBtn.classList.add("button");
+	splitBtn.classList.remove("aktivan");
+	splitBtn.classList.remove("odabranoMobilnaBtn");
 	
-	rijekaBtn.classList.remove("aktivan");
 	rijekaBtn.classList.add("button");
+	rijekaBtn.classList.remove("aktivan");
+	rijekaBtn.classList.remove("odabranoMobilnaBtn");
 	
-	osijekBtn.classList.remove("aktivan");
 	osijekBtn.classList.add("button");
+	osijekBtn.classList.remove("aktivan");
+	osijekBtn.classList.remove("odabranoMobilnaBtn");
 	
-	zadarBtn.classList.remove("aktivan");
 	zadarBtn.classList.add("button");
+	zadarBtn.classList.remove("aktivan");
+	zadarBtn.classList.remove("odabranoMobilnaBtn");
 	
 	pulaBtn.classList.remove("button");
 	pulaBtn.classList.add("aktivan");
+	pulaBtn.classList.add("odabranoMobilnaBtn");
 	
 	varazdinBtn.classList.remove("aktivan");
 	varazdinBtn.classList.add("button");
+	varazdinBtn.classList.remove("odabranoMobilnaBtn");
+	
+	document.getElementById("odabranaOpcijaMobilno").innerHTML = "PULA";
 }
 
 function funkcijaVarazdin(){
@@ -211,22 +265,31 @@ function funkcijaVarazdin(){
 	
 	zagrebBtn.classList.remove("aktivan");
 	zagrebBtn.classList.add("button");
+	zagrebBtn.classList.remove("odabranoMobilnaBtn");
 	
-	splitBtn.classList.remove("aktivan");
 	splitBtn.classList.add("button");
+	splitBtn.classList.remove("aktivan");
+	splitBtn.classList.remove("odabranoMobilnaBtn");
 	
-	rijekaBtn.classList.remove("aktivan");
 	rijekaBtn.classList.add("button");
+	rijekaBtn.classList.remove("aktivan");
+	rijekaBtn.classList.remove("odabranoMobilnaBtn");
 	
-	osijekBtn.classList.remove("aktivan");
 	osijekBtn.classList.add("button");
+	osijekBtn.classList.remove("aktivan");
+	osijekBtn.classList.remove("odabranoMobilnaBtn");
 	
-	zadarBtn.classList.remove("aktivan");
 	zadarBtn.classList.add("button");
+	zadarBtn.classList.remove("aktivan");
+	zadarBtn.classList.remove("odabranoMobilnaBtn");
 	
-	pulaBtn.classList.remove("aktivan");
 	pulaBtn.classList.add("button");
+	pulaBtn.classList.remove("aktivan");
+	pulaBtn.classList.remove("odabranoMobilnaBtn");
 	
 	varazdinBtn.classList.remove("button");
 	varazdinBtn.classList.add("aktivan");
+	varazdinBtn.classList.add("odabranoMobilnaBtn");
+	
+	document.getElementById("odabranaOpcijaMobilno").innerHTML = "VARAŽDIN";
 }
