@@ -1,0 +1,113 @@
+#ponuda{
+	border-bottom: 2px solid #fff;
+}
+
+.titlecard{
+	margin-top: 60px;
+	background-image: url("../img/ponuda.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 400px;
+	width: 100%;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#grey-image{
+	background-color: rgba(11,11,11,0.3);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 400px;
+	width: 100%;
+}
+
+.titlecard h1{
+	color: #fff;
+	opacity: 1;
+	font-size: 60px;
+	text-shadow: 0 0 30px #262626;
+}
+
+.content{
+	/* max-width: 70%; */
+	width: 70%;
+	margin: 0 auto;
+	padding: 50px 0;
+	color: #262626;
+}
+
+.ponude-kartice{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.kartica{
+	width: 30%;
+	color: #414141;
+	font-size: 15px;
+	border: 1px solid #b5b5b5;
+	border-radius: 5px;
+	transition: 0.3s;
+	text-align: center;
+	color: #262626;
+}
+
+.kartica img{
+	width: 100%;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+}
+
+#kartica-sadrzaj{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 10px;
+}
+
+.kartica a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px;
+	border: 1px solid #ea600e;
+	background-color: #ea600e;
+	border-radius: 20px;
+}
+
+.kartica:hover{
+	transition: 0.3s;
+}
+
+.kartica-tekst{
+	
+}
+
+.kartica-tekst a{
+	text-decoration: none;
+	color: #262626;
+	transition: 0.3s;
+}
+
+.kartica-tekst a:hover{
+	opacity: 0.8;
+	transition: 0.3s;
+}
+
+@media only screen and (max-width: 974px){
+	#ponuda{
+		border: none;
+	}
+
+	.titlecard h1{
+		color: #fff;
+		font-size: 40px;
+		text-shadow: 1px 1px 5px #262626;
+	}
+}

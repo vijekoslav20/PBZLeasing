@@ -1,0 +1,45 @@
+#leasing{
+	border-bottom: 2px solid #fff;
+}
+
+.titlecard{
+	margin-top: 60px;
+	background-image: url("../img/trebam-leasing.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 400px;
+	width: 100%;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#grey-image{
+	background-color: rgba(11,11,11,0.3);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 400px;
+	width: 100%;
+}
+
+.titlecard h1{
+	color: #fff;
+	opacity: 1;
+	font-size: 60px;
+	text-shadow: 0 0 30px #262626;
+}
+
+@media only screen and (max-width: 974px){
+	#leasing{
+		border: none;
+	}
+
+	.titlecard h1{
+		color: #fff;
+		font-size: 40px;
+		text-shadow: 1px 1px 5px #262626;
+	}
+}
