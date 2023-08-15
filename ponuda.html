@@ -29,9 +29,10 @@
 					</a>
 				</div>
 				<ul class="nav-list">
-					<li><a href="about.html" id="about">O NAMA</a></li>
-					<li><a href="ponuda.html" id="ponuda">PONUDA</a></li>
-					<li><a href="trebam-leasing.html" id="leasing">TREBAM LEASING</i></a>
+					<li><a href="about.html" id="about-nav">O NAMA</a></li>
+					<li><a href="ponuda.html" id="ponuda-nav">PONUDA</a></li>
+					<li><a href="trebam-leasing.html" id="leasing-nav">TREBAM LEASING</i></a>
+					<li><a href="dokumentacija.html" id="dokumentacija-nav">DOKUMENTACIJA</i></a>
 					<li><a href="https://net.pbz-leasing.hr/croleas_eleasing/" target="_blank">E-LEASING</a></li>
 				</ul>
 			</nav>
@@ -45,74 +46,129 @@
 	</div>
 
 	<div class="content">
-		<div class="ponude-kartice">
-			<div class="kartica" id="kartica-vozila">
-				<img src="img/vozila.jpeg"/>
-				<div id="kartica-sadrzaj">
-					<h2>VOZILA</h2>
-					<a href="#kartica-tekst">SAZNAJ VIŠE</a>
+		<div class="ponuda-ekran">
+			<div class="ponuda-opcije">
+				<div class="odabranaOpcijaPonuda" id="btn-vozila" onclick="funkcijaVozila()">
+					<h3>VOZILA</h3>
+					<i class="fa-solid fa-angle-right"></i>
+				</div>
+				<div class="ponuda-opcije-btn" id="btn-oprema" onclick="funkcijaOprema()">
+					<h3>OPREMA</h3>
+					<i class="fa-solid fa-angle-right"></i>
+				</div>
+				<div class="ponuda-opcije-btn" id="btn-plovila" onclick="funkcijaPlovila()">
+					<h3>PLOVILA</h3>
+					<i class="fa-solid fa-angle-right"></i>
 				</div>
 			</div>
-			<div class="kartica" id="kartica-oprema">
-				<img src="img/oprema.jpeg"/>
-				<div id="kartica-sadrzaj">
-					<h2>OPREMA</h2>
-					<a href="#kartica-tekst">SAZNAJ VIŠE</a>
+			
+			<div class="ponuda-tekst">
+				<div class="ponuda-tekst-div" id="tekst-vozila" style="display: block;">
+					<p>PBZ Leasing d.o.o. financira sve marke osobnih i teretnih vozila te autobusa. Moguće je financiranje putem operativnog 
+					i financijskog leasinga na rok do 72 mjeseca. Registarske oznake vozila mogu glasiti na gotovo sve gradove u Republici 
+					Hrvatskoj. Prema potrebi, vozilo je moguće uvesti direktno iz inozemstva.</p><br/>
+					<p>Odlikujemo korektnost i usmjerenost prema korisniku leasinga, a očituje se u brzom odobrenju leasinga te transparentnoj 
+					ponudi s jasno iskazanim troškovima te uz dugogodišnje iskustvo u financiranju novih i rabljenih vozila, naši klijenti mogu 
+					računati na stručni savjet i najbolju preporuku.</p><br/>
+					<p>
+						<i class="fa-solid fa-envelope"></i>&nbsp;
+						<a href="mailto:osobna.vozila@pbz-leasing.hr">osobna.vozila@pbz-leasing.hr</a>
+						<br style="display: none;"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<i class="fa-solid fa-envelope"></i>&nbsp;
+						<a href="mailto:gospodarska.vozila@pbz-leasing.hr">gospodarska.vozila@pbz-leasing.hr</a>
+					</p>
 				</div>
-			</div>
-			<div class="kartica" id="kartica-plovila">
-				<img src="img/plovila.jpeg"/>
-				<div id="kartica-sadrzaj">
-					<h2>PLOVILA</h2>
-					<a href="#kartica-tekst">SAZNAJ VIŠE</a>
+				<div class="ponuda-tekst-div" id="tekst-oprema" style="display: none;">
+					<p>Primjenjujući vodeće svjetske trendove PBZ Leasing d.o.o. financira sve marke strojeva i opreme.</p><br/>
+					<p>U financiranju opremanja ureda, trgovina, medicinskih i laboratorijskih prostora, prioizvodnih pogona i tiskara, PBZ 
+					Leasing d.o.o. sve je češći odabir mnogobrojnih poduzetnika. Za financiranje građevinskih strojeva i opreme predviđeno vrijeme 
+					trajanja leasinga je 60 mjeseci.</p><br/>
+					<p>Za početak je dovoljno uputiti ponudu koju klijent dobije od dobavljača strojeva/opreme, potom će PBZ Leasing u najkraćem 
+					roku izvijestiti klijenta o najprihvatljivijim modelima i uvjetima financiranja.</p><br/>
+					<p>
+						<i class="fa-solid fa-envelope"></i>&nbsp;
+						<a href="mailto:oprema@pbz-leasing.hr">oprema@pbz-leasing.hr</a>
+					</p>
+				</div>
+				<div class="ponuda-tekst-div" id="tekst-plovila" style="display: none;">
+					<p>PBZ Leasing zahvaljujući stečenom iskustvu može ponuditi uistinu najveći know-how počevši od nabavke plovila, financiranja,
+					korištenja pa sve do ponovne prodaje plovila. Kvalitetu usluge potvrđuje podatak da smo financiranjem nabavke plovila putem 
+					financijskog leasinga sudjelovali u razvoju nautičkog turizma na Jadranu. Moguće je financiranje novih i rabljenih plovila.</p><br/>
+					<p>
+						<i class="fa-solid fa-envelope"></i>&nbsp;
+						<a href="mailto:plovila@pbz-leasing.hr">plovila@pbz-leasing.hr</a>
+					</p>
 				</div>
 			</div>
 		</div><br/><br/>
 		
-		<div class="kartica-tekst" id="kartica-tekst">
-			<div id="vozila-tekst" style="display: none;">
-				<h2>Osobna vozila, gospodarska vozila i autobusi</h2><br/>
-				<p>PBZ Leasing d.o.o. financira sve marke osobnih i teretnih vozila te autobusa. Moguće je financiranje putem operativnog 
-				i financijskog leasinga na rok do 72 mjeseca. Registarske oznake vozila mogu glasiti na gotovo sve gradove u Republici 
-				Hrvatskoj. Prema potrebi, možemo uvesti vozilo direktno iz inozemstva.</p><br/>
-				<p>PBZ Leasing d.o.o. odlikuje korektnost i usmjerenost prema korisniku leasinga, a očituje se u brzom odobrenju leasinga 
-				te transparentnoj ponudi s jasno iskazanim troškovima.</p><br/>
-				<p>Uz dugogodišnje iskustvo u financiranju novih i rabljenih vozila, u PBZ Leasingu klijenti mogu računati na stručni savjet 
-				i najbolju preporuku.</p><br/>
-				<p>
-					<i class="fa-solid fa-envelope"></i>&nbsp;
-					<a href="mailto:osobna.vozila@pbz-leasing.hr">osobna.vozila@pbz-leasing.hr</a>
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-					<i class="fa-solid fa-envelope"></i>&nbsp;
-					<a href="mailto:gospodarska.vozila@pbz-leasing.hr">gospodarska.vozila@pbz-leasing.hr</a>
-				</p>
-			</div>
-			<div id="oprema-tekst" style="display: none;">
-				<h2>Strojevi i oprema</h2><br/>
-				<p>Primjenjujući vodeće svjetske trendove PBZ Leasing d.o.o. financira sve marke strojeva i opreme.</p><br/>
-				<p>U financiranju opremanja ureda, trgovina, medicinskih i laboratorijskih prostora, prioizvodnih pogona i tiskara, PBZ 
-				Leasing d.o.o. sve je češći odabir mnogobrojnih poduzetnika. Za financiranje građevinskih strojeva i opreme predviđeno vrijeme 
-				trajanja leasinga je 60 mjeseci.</p><br/>
-				<p>Za početak je dovoljno uputiti ponudu koju klijent dobije od dobavljača strojeva/opreme, potom će PBZ Leasing u najkraćem 
-				roku izvijestiti klijenta o najprihvatljivijim modelima i uvjetima financiranja.</p><br/>
-				<p>
-					<i class="fa-solid fa-envelope"></i>&nbsp;
-					<a href="mailto:oprema@pbz-leasing.hr">oprema@pbz-leasing.hr</a>
-				</p>
-			</div>
-			<div id="plovila-tekst">
-				<h2>Plovila</h2><br/>
-				<p>PBZ Leasing zahvaljujući stečenom iskustvu može ponuditi uistinu najveći know-how počevši od nabavke plovila, financiranja, 
-				korištenja pa sve do ponovne prodaje plovila. Kvalitetu usluge potvrđuje podatak da smo financiranjem nabavke plovila putem 
-				financijskog leasinga sudjelovali u razvoju nautičkog turizma na Jadranu. Moguće je financiranje novih i rabljenih plovila.</p><br/>
-				<p>
-					<i class="fa-solid fa-envelope"></i>&nbsp;
-					<a href="mailto:plovila@pbz-leasing.hr">plovila@pbz-leasing.hr</a>
-				</p>
-			</div>
+		<div class="pogodnosti">
+			<h2>Posebne pogodnosti</h2><br/>
+			
+			<p>PBZ Leasing trenutno nudi posebne pogodnosti za:</p><br/>
+			
+			<ul>
+				<li><a href="https://www.pbz.hr/mali-poduzetnici/sinergo-paketi.html" target="_blank">male poduzetnike, obrtnike, korisnike PBZ usluga</a></li>
+				<li><a href="mailto:info@pbz-leasing.hr?subject=Upit o posebnim pogodnostima&body=Poštovani, %0D%0A%0D%0A
+				Molio bih vas više informacija o posebnim pogodnostima za korisnike tekućeg računa PBZ-a. %0D%0A%0D%0A
+				Hvala i lijep pozdrav,%0D%0A">korisnike tekućeg računa PBZ-a</a></li>
+				<li><a href="mailto:info@pbz-leasing.hr?subject=Upit o posebnim pogodnostima&body=Poštovani, %0D%0A%0D%0A
+				Molio bih vas više informacija o posebnim pogodnostima za članove HKDM-a za financiranje stomatološke opreme i automobila. %0D%0A%0D%0A
+				Hvala i lijep pozdrav,%0D%0A">članove HKDM-a za financiranje stomatološke opreme i automobila</a></li>
+				<li><a href="mailto:info@pbz-leasing.hr?subject=Upit o posebnim pogodnostima&body=Poštovani, %0D%0A%0D%0A
+				Molio bih vas više informacija o posebnim pogodnostima za članove HLK-a za financiranje medicinske opreme i automobila. %0D%0A%0D%0A
+				Hvala i lijep pozdrav,%0D%0A">članove HLK-a za financiranje medicinske opreme i automobila</a></li>
+				<li><a href="mailto:info@pbz-leasing.hr?subject=Upit o posebnim pogodnostima&body=Poštovani, %0D%0A%0D%0A
+				Molio bih vas više informacija o posebnim pogodnostima za financiranje električnih vozila. %0D%0A%0D%0A
+				Hvala i lijep pozdrav,%0D%0A">financiranje električnih vozila</a></li>
+				<li><a href="mailto:info@pbz-leasing.hr?subject=Upit o posebnim pogodnostima&body=Poštovani, %0D%0A%0D%0A
+				Molio bih vas više informacija o posebnim pogodnostima za korisnike Premium Visa kartice. %0D%0A%0D%0A
+				Hvala i lijep pozdrav,%0D%0A">korisnike Premium Visa kartice</a></li>
+			</ul>
+			<br/><br/>
 		</div>
 		
+		<div class="financijski-savjeti">
+			<h2>Financijski savjeti</h2><br/>
+			
+			<p>Izmjenom Zakona o PDVu kod financijskog leasinga, ne obračunava se PDV na kamatu sadržanu u mjesečnom obroku leasinga. Time <b>leasing 
+			dobiva status financijskog proizvoda dostupnog i fizičkoj osobi</b>. Leasing postaje povoljniji i atraktivniji.</p><br/>
+			
+			<p>Kao i udio kamate, PDV koji se na nju obračunavao, imao je najznačajniji udio u počecima otplate leasinga. Svi dosadašnji korisnici 
+			financijskog leasinga već su osjetili prednosti umanjenja obroka. Rasterećen za PDV, leasing je sada konkurentan kreditu. Uz jednaki kamatnjak, 
+			visinu učešća i isti rok, financijski leasing se izjednačio s kreditom. Potrebno je ipak naglasiti zašto financijski stručnjaci danas 
+			preporučuju leasing:</p><br/>
+			
+			<ul>
+				<li>jednostavniji instrumenti osiguranja</li>
+				<li>brza obrada podataka i financiranje</li>
+				<li>nema troška solemnizacije</li>
+				<li>manja jednokratna naknada</li>
+			</ul><br/>
+			
+			<p>Više savjeta i informacija, kao i priručnik o leasingu možete pronaći u sekciji "<b><u><a href="dokumentacija.html" target="_blank">Dokumentacija</a></u></b>"</p>
+			<br/><br/>
+		</div>
 		
+		<div class="tipovi-leasinga">
+			<h2>Tipovi leasinga</h2><br/>
+			
+			<p>Izmjenom Zakona o PDVu kod financijskog leasinga, ne obračunava se PDV na kamatu sadržanu u mjesečnom obroku leasinga. Time <b>leasing 
+			dobiva status financijskog proizvoda dostupnog i fizičkoj osobi</b>. Leasing postaje povoljniji i atraktivniji.</p><br/>
+			
+			<p>Kao i udio kamate, PDV koji se na nju obračunavao, imao je najznačajniji udio u počecima otplate leasinga. Svi dosadašnji korisnici 
+			financijskog leasinga već su osjetili prednosti umanjenja obroka. Rasterećen za PDV, leasing je sada konkurentan kreditu. Uz jednaki kamatnjak, 
+			visinu učešća i isti rok, financijski leasing se izjednačio s kreditom. Potrebno je ipak naglasiti zašto financijski stručnjaci danas 
+			preporučuju leasing:</p><br/>
+			
+			<ul>
+				<li>jednostavniji instrumenti osiguranja</li>
+				<li>brza obrada podataka i financiranje</li>
+				<li>nema troška solemnizacije</li>
+				<li>manja jednokratna naknada</li>
+			</ul>
+			<br/><br/>
+		</div>
 	</div>
 
 	<div class="footer">
@@ -141,5 +197,6 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 <script src="js/navigationScript.js"></script>
+<script src="js/predmetiLeasingaScript.js"></script>
 </body>
 </html>
