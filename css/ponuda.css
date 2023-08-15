@@ -1,4 +1,4 @@
-#ponuda{
+#ponuda-nav{
 	border-bottom: 2px solid #fff;
 }
 
@@ -14,6 +14,7 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	/* filter: grayscale(100%); */
 }
 
 #grey-image{
@@ -33,75 +34,135 @@
 }
 
 .content{
-	/* max-width: 70%; */
-	width: 70%;
+	max-width: 70%;
+	/* width: 70%; */
 	margin: 0 auto;
 	padding: 50px 0;
 	color: #262626;
 }
 
-.ponude-kartice{
+.ponuda-ekran{
 	width: 100%;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
+	display: inline-block;
 }
 
-.kartica{
-	width: 30%;
-	color: #414141;
-	font-size: 15px;
-	border: 1px solid #b5b5b5;
-	border-radius: 5px;
+.ponuda-opcije{
+	float: left;
+	display: flex;
+	flex-direction: column;
+	width: 20%;
+}
+
+.ponuda-opcije-btn{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px;
+	margin-bottom: 15px;
+	border: 1px solid #d9d9d9;
+	border-radius: 10px;
 	transition: 0.3s;
-	text-align: center;
 	color: #262626;
 }
 
-.kartica img{
-	width: 100%;
-	border-top-right-radius: 5px;
-	border-top-left-radius: 5px;
-}
-
-#kartica-sadrzaj{
+.odabranaOpcijaPonuda{
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
 	align-items: center;
-	padding: 10px 10px;
+	justify-content: space-between;
+	padding: 10px;
+	margin-bottom: 15px;
+	border: 1px solid #d9d9d9;
+	border-radius: 10px;
+	transition: 0.3s;
+	color: #fff;
+	/* box-shadow: 0 0 10px rgba(0, 0, 0, .2); */
+	/* transform: translate3d(0, -2px ,0); */
+	background-image: linear-gradient(to right, #ea600e, #fff);
 }
 
-.kartica a{
-	text-decoration: none;
-	color: #fff;
-	padding: 5px;
-	border: 1px solid #ea600e;
-	background-color: #ea600e;
+.ponuda-opcije-btn i{
+	padding: 5px 8px;
 	border-radius: 20px;
 }
 
-.kartica:hover{
+.odabranaOpcijaPonuda i{
+	padding: 5px 8px;
+	border-radius: 20px;
+	color: #262626;
+}
+
+.ponuda-opcije-btn:hover{
+	box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+	transform: translate3d(0, -2px ,0);
+	color: #262626;
+	cursor: pointer;
+}
+
+.odabranaOpcijaPonuda:hover{
+	cursor: pointer;
+}
+
+.ponuda-opcije-btn:hover i{
+	background-image: linear-gradient(to bottom right, #ea600e, #fff);
+	color: #fff;
 	transition: 0.3s;
 }
 
-.kartica-tekst{
-	
+.ponuda-tekst{
+	float: right;
+	width: 75%;
 }
 
-.kartica-tekst a{
+.ponuda-tekst a{
 	text-decoration: none;
 	color: #262626;
 	transition: 0.3s;
 }
 
-.kartica-tekst a:hover{
+.ponuda-tekst a:hover{
 	opacity: 0.8;
 	transition: 0.3s;
 }
 
-@media only screen and (max-width: 974px){
-	#ponuda{
+/*------------------------------------POGODNOSTI---------------------------------------*/
+.pogodnosti ul{
+	padding-left: 50px;
+}
+
+.pogodnosti ul a{
+	text-decoration: none;
+	color: #262626;
+	transition: 0.3s;
+}
+
+.pogodnosti ul a:hover{
+	opacity: 0.8;
+}
+
+/*------------------------------------FINANCIJSKI SAVJETI---------------------------------------*/
+.financijski-savjeti ul{
+	padding-left: 50px;
+}
+
+.financijski-savjeti a{
+	text-decoration: none;
+	color: #262626;
+	transition: 0.3s;
+}
+
+.financijski-savjeti a:hover{
+	opacity: 0.8;
+}
+
+/*------------------------------------TIPOVI LEASINGA---------------------------------------*/
+.tipovi-leasinga ul{
+	padding-left: 50px;
+}
+
+@media only screen and (max-width: 1000px){
+	#ponuda-nav{
 		border: none;
 	}
 

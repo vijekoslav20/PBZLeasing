@@ -1,4 +1,4 @@
-#about{
+#about-nav{
 	border-bottom: 2px solid #fff;
 }
 
@@ -14,6 +14,7 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	/* filter: grayscale(100%); */
 }
 
 #grey-image{
@@ -201,8 +202,8 @@ table td {
 	}
 }
 
-@media only screen and (max-width: 974px){
-	#about{
+@media only screen and (max-width: 1000px){
+	#about-nav{
 		border: none;
 	}
 

@@ -1,10 +1,10 @@
-#leasing-nav{
+#dokumentacija-nav{
 	border-bottom: 2px solid #fff;
 }
 
 .titlecard{
 	margin-top: 60px;
-	background-image: url("../img/trebam-leasing.jpg");
+	background-image: url("../img/dokumentacija.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -34,7 +34,7 @@
 }
 
 @media only screen and (max-width: 1000px){
-	#leasing-nav{
+	#dokumentacija-nav{
 		border: none;
 	}
 
