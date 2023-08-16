@@ -1,0 +1,49 @@
+.titlecard1{
+	margin-top: 60px;
+	background-image: url("../img/ev.jpg");
+	height: 1000px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;    
+}
+
+#grey-img1{
+	background-color: rgba(11,11,11,0.3);
+	height: 1000px;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: left;
+}
+
+#grey-img1 h1{
+	width: 30%;
+	padding-left: 100px;
+	padding-bottom: 10px;
+	border-bottom: 4px solid #ea600e;
+	text-shadow: 0 0 10px #262626;
+}
+
+#grey-img1 p{
+	width: 30%;
+	padding-left: 100px;
+	font-size: 18px;
+	text-shadow: 0 0 10px #262626;
+}
+
+#grey-img1 button{
+	width: 10%;
+	font-size: 14px;
+	margin-left: 100px;
+	background-color: #ea600e;
+	color: #fff;
+	font-weight: bold;
+	border: none;
+	padding: 10px;
+}
+
+#grey-img1 button:hover{
+	cursor: pointer;
+}
