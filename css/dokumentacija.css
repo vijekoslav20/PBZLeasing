@@ -88,7 +88,7 @@
 
 .dokumentiRed p{
 	padding: 5px 9px;
-	color: #ea600e;
+	color: #f69d68;
 	background-color: #fff;
 	border-radius: 20px;
 	transition: 0.3s;
@@ -103,7 +103,7 @@
 }
 
 .dokumentiRedPola > a:hover p{
-	background-color: #ea600e;
+	background-color: #f69d68;
 	color: #fff;
 }
 
