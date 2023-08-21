@@ -185,6 +185,10 @@ table td {
 	.sadrzajPodruzniceRed{
 		flex-wrap: wrap;
 	}
+	
+	.sadrzajPodruzniceRed1{
+		padding-bottom: 0;
+	}
 
 	.sadrzajPodruzniceRedPola{
 		width: 100%;
@@ -198,7 +202,7 @@ table td {
 	}
 	
 	#kartica-razmak{
-		margin-bottom: 2%;
+		margin-bottom: 1%;
 	}
 	
 	#kartica-razmak-srednje{
@@ -280,6 +284,10 @@ table td {
 	
 	.sadrzajPodruzniceRed{
 		flex-wrap: wrap;
+	}
+	
+	.sadrzajPodruzniceRed1{
+		padding-bottom: 0;
 	}
 
 	.sadrzajPodruzniceRedPola{

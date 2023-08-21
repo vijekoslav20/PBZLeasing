@@ -33,6 +33,23 @@
 	text-shadow: 0 0 30px #262626;
 }
 
+.content{
+	/* max-width: 70%; */
+	width: 70%;
+	margin: 0 auto;
+	padding: 50px 0;
+	color: #262626;
+}
+
+/*------------------------------------KAKO USPOREDITI LEASING PONUDE---------------------------------------*/
+.kako-usprediti-leasing ol > li::marker {
+	font-weight: bold;
+}
+
+.kako-usprediti-leasing ol{
+	padding-left: 50px;
+}
+
 @media only screen and (max-width: 1000px){
 	#leasing-nav{
 		border: none;
