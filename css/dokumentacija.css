@@ -69,7 +69,7 @@
 	/* border-radius: 9px; */
 	border-radius: 2px;
 	transition: 0.3s;
-	box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+	box-shadow: 0 0 10px rgba(0, 0, 0, .1);
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -112,7 +112,48 @@
 	opacity: 0.8;
 }
 
+@media only screen and (max-width: 1454px){
+	h2{
+		font-size: 22px;
+	}
+	
+	.content{
+		width: 85%;
+	}
+	
+	.dokumentiRed{
+		flex-wrap: wrap;
+	}
+	
+	.dokumentiRed1{
+		padding-bottom: 0;
+	}
+
+	.dokumentiRedPola{
+		width: 100%;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+
+	.dokumentiRedPola > a{
+		width: 47%;
+		font-size: 15px;
+	}
+	
+	#dokument-razmak{
+		margin-bottom: 1%;
+	}
+	
+	#dokument-razmak-srednje{
+		margin-bottom: 0;
+	}
+}
+
 @media only screen and (max-width: 1000px){
+	h2{
+		font-size: 20px;
+	}
+	
 	#dokumentacija-nav{
 		border: none;
 	}
@@ -121,5 +162,51 @@
 		color: #fff;
 		font-size: 40px;
 		text-shadow: 1px 1px 5px #262626;
+	}
+	
+	#about-nav{
+		border: none;
+	}
+
+	.titlecard h1{
+		color: #fff;
+		font-size: 40px;
+		text-shadow: 1px 1px 5px #262626;
+	}
+
+	.content{
+		width: 85%;
+		padding: 30px 0;
+	}
+	
+	.dokumentiRed{
+		flex-wrap: wrap;
+	}
+	
+	.dokumentiRed h4{
+		font-size: 13px;
+	}
+	
+	.dokumentiRed1{
+		padding-bottom: 0;
+	}
+
+	.dokumentiRedPola{
+		width: 100%;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.dokumentiRedPola > a{
+		width: 99%;
+		font-size: 15px;
+	}
+	
+	#dokument-razmak{
+		margin-bottom: 3%;
+	}
+	
+	#dokument-razmak-srednje{
+		margin-bottom: 3%;
 	}
 }
