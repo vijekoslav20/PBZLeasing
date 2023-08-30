@@ -94,7 +94,8 @@
 }
 
 .ponuda-opcije-btn:hover{
-	box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+	box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+	border: 1px solid #fff;
 	transform: translate3d(0, -2px ,0);
 	color: #262626;
 	cursor: pointer;

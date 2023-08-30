@@ -182,6 +182,10 @@ table td {
 		max-width: 85%;
 	}
 	
+	h2{
+		font-size: 22px;
+	}
+	
 	.sadrzajPodruzniceRed{
 		flex-wrap: wrap;
 	}
